@@ -1,0 +1,140 @@
+
+.navbar{
+    background-color: #373A3C;
+}
+
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 45pt;
+}
+
+header img {
+width: 98%;
+border-radius: 5px;
+}
+
+header h1 {
+    font-size: 300%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+header p{
+    font-size: 180%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.carousel-inner img{
+width: 23%;
+border-radius: 5px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -2rem;
+    margin-left: 15%;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 1px;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #373b3e;
+    background-clip:unset;
+    
+}
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.scrollbar-ripe-malinka {
+    scrollbar-color: #f5576c #F5F5F5;
+}
+.card{
+min-height: 580px;
+max-width: 580px;
+
+}
+.card h1{
+    font-weight: 700;
+}
+
+#headrelac{
+    font-size: 260%;
+    font-weight: 700;
+}
+#contacto{
+    background-color: #DC3545;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    padding-top: 12%;
+    padding-bottom: 14%;
+    margin-top: 7%;
+}
+#ricomida{
+    font-family: 'Lobster', cursive;
+}
+#contacto h1{
+    font-size: 290%;
+}
+#contacto h2{
+    font-size: 200%;
+}
+#footer{
+    font-family: 'Lobster', cursive;
+    background-color: #373A3C;
+    color: #FFF;
+    margin:0px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+#footer h1{
+    font-size: 65px;
+}
+#footer a{
+    color: #FFF;
+    text-decoration: none;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: auto;
+    
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #a8a8a8;
+    border-color: var(--bs-btn-hover-border-color);
+}
+#borde{
+background-color: #373A3C;
+}
